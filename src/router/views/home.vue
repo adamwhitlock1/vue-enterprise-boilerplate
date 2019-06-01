@@ -13,7 +13,7 @@ export default {
 
 <template>
   <Layout>
-    <h1 class="text-2xl font-bold uppercase">Home Page</h1>
+    <h1 class="text-4xl text-green-800 font-bold uppercase">Home Page</h1>
     <img src="@assets/images/logo.png" alt="Logo" />
   </Layout>
 </template>

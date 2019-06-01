@@ -58,6 +58,11 @@ module.exports = {
     'scss/selector-no-redundant-nesting-selector': true,
     // Allow SCSS and CSS module keywords beginning with `@`
     'at-rule-no-unknown': null,
-    'scss/at-rule-no-unknown': true,
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['extends', 'tailwind', 'apply'],
+      },
+    ],
   },
 }

@@ -5,6 +5,10 @@
 @import 'sizes';
 @import 'typography';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :export {
   // Any values that need to be accessible from JavaScript
   // outside of a Vue component can be defined here, prefixed
